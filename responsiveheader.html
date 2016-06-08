@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Augusta Sani Clean</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsiveheader.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Link needed for Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Link needed for Google Glyphicons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Begin Header jQuery -->
+	    $(function() {
+	    $(window).scroll(function() {
+	        var scroll = $(window).scrollTop();
+
+	        if (scroll >= 500) {
+	            $(".header").addClass('smaller');
+	        } else {
+	            $(".header").removeClass("smaller");
+	        }
+	    });
+	});
+    <!-- End Header jQuery -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--Begin Header -->
+
+	<div class="header">
+	    <div class="container clearfix">
+	        <h1 id="logo"> LOGO </h1>
+	        <nav>
+	            <a href="">Lorem</a>
+	            <a href="">Ipsum</a>
+	            <a href="">Dolor</a>
+	        </nav>
+	    </div>
+	</div>
+<!-- End Header -->
+
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--JS script src must access bootstrap.min.css file in the correct folder -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

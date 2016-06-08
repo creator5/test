@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mrs K's Motel and Restaurant</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Link needed for Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Link needed for Google Glyphicons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <!-- Begin Top Navigation -->
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mrs K's Motel and Restaurant</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="foodgallery.html">Food Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <!-- End Top Navigation -->
+
+
+    <!-- Begin Top Mrs Ks Pic -->
+    <!-- Picture MUST be inside the css folder -->
+    <div class="container-fluid">
+        <div class="containerpic">
+        </div>  
+    </div>
+    <!-- End Top Mrs Ks Pic -->
+
+
+    <!-- Begin Mrs Ks Tagline -->
+    <!-- Added CSS Row Centered class to center tagline -->
+    <div class="container">
+      <div class="row row-centered">
+        <div class="col-sm-4 col-sm-offset-4">
+          <h4 class="mrskstagline">"The Best Kept Secret In Maryland"</h4> 
+        </div>
+      </div>  
+    </div>
+    <!-- End Mrs Ks Tagline -->
+
+    <!-- Begin Name of Page -->
+    <div class="container-fluid">
+      <h1 class="text-danger">Menu</h1>
+    </div>
+    <!-- End Name of Page -->
+
+    <!-- Begin Testimony Carousel Using Block Quotes -->
+
+      <div class="col-md-4">
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="15000">
+          <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                  </ol>
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item">
+              <blockquote>
+                <!-- Overriding block quote css with color black for text -->
+                <p style="color:black;">My wife Rebecca and I were traveling down 301 this past summer (August), as we approached your restaurant she said to me I bet you they have some good pancakes in there. This was her way of letting me know it was time for breakfast. After making a u-turn down the road we came back for breakfast, Wow was she right! the food was delicious. We can't wait to come back! The first sign we got letting us know we had made the right choice for breakfast was the place was packed.<br><h4><b>-William B</b></h4></p>
+                <!-- Use CSS to make name text color red -->
+              
+              </blockquote>
+              <div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+            </div>
+            <div class="item">
+              <blockquote>
+                <p style="color:black;">I've been coming to this establishment for ever...Mrs. Cleo had it back in the days...the same love that was given back then is the same love and delicious homecooking today...Thank you all for doing a great and prestigious job....The food is off the chain...especially those CHITTERLINGS..MY FAVORITE!!!. See you soon and I appreciate the love everyone has for one another <br><h4><b>-Stacey R</b></h4></p>
+              </blockquote>
+              <div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+            </div>
+            <div class="item">
+              <blockquote>
+                <p style="color:black;">Mrs. Ks is awesome. She always takes care of ya. No doubt, the best food in the area and especially for the price. Come get ya some of that country deliciousness. 
+                <br><h4><b>-Richard F</b></h4></p>
+              </blockquote>
+              <div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+            </div>
+          </div>
+        </div>
+      </div>              
+    </div>
+  </div>
+</section>
+
+<!-- End Testimony Carousel Using Block Quotes -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--JS script src must access bootstrap.min.css file in the correct folder -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
